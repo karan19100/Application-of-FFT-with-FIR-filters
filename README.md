@@ -43,6 +43,14 @@ Next, a BPF was generated using the Filter Designer Toolbox and desired paramete
 Thus designed filter was exported to the workspace as an object,  this filter was applied to the actual signal and corresponding FFT was computed to check for the frequency components retained. 
 
 > <img src="images/BPF_signal.PNG" width="400" height="250" >
+
+Next, a LPF was generated using the Filter Designer Toolbox and desired parameters were set which looked something like this, see the Magnitude Spectrum? Interesting, isn't it? You can change the parameters as you like to get the desired outcome. I wanted to remove the noise and retain the frequencies which I initially created my signal with. Thus the parameters. 
+
+> <img src="images/LPF_Toolbox.png" width="400" height="250" >
+
+Thus designed filter was exported to the workspace as an object,  this filter was applied to the actual signal and corresponding FFT was computed to check for the frequency components retained. 
+
+> <img src="images/LPF_signal.PNG" width="400" height="250" >
  
 I did this with both LPF and BPF just to get the hang of it, you can do as many modifications and as much processing as you like and have fun with the toolbox. The possibilities are wide. 
 
