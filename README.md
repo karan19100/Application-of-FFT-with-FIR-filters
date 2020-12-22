@@ -42,7 +42,7 @@ Next, a BPF was generated using the Filter Designer Toolbox and desired paramete
 
 Thus designed filter was exported to the workspace as an object,  this filter was applied to the actual signal and corresponding FFT was computed to check for the frequency components retained. 
 
-> <img src="images/FreqResponseAfterPassingBPF.jpg" width="400" height="250" >
+> <img src="images/BPF_signal.PNG" width="400" height="250" >
  
 I did this with both LPF and BPF just to get the hang of it, you can do as many modifications and as much processing as you like and have fun with the toolbox. The possibilities are wide. 
 
